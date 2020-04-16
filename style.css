@@ -1,0 +1,147 @@
+body{
+    background-color: black;
+    background-image: url("https://www.jodhamalschool.org/images2810/slider7.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* h1{
+    
+} */
+.container{
+    display:flex;
+    justify-content:space-between;
+}
+.header{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+}
+
+.location{
+    position: relative;
+    color:black;
+   font-size: x-large;
+   
+}
+
+
+.links{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+      font-size: larger;
+    color: #AC1213;
+}
+#bg{
+    opacity: 0.2;
+}
+h1{
+    
+    text-align:center ;
+    font-size: 50px;
+    color: #e6c11e;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #AC1213;
+    border-radius: 20%;
+  }
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+  
+li a:hover:not(.active) {
+    background-color: rgba(0, 0, 0, 0);
+color: #e6c11e;  
+}
+*{ 
+}
+.intro{
+color: #000000;
+font-size: x-large;
+}
+    
+.intro p{
+    /* position:absolute; */
+    /* left:10px; */
+    background-color: #ffffff7c;
+    color:#000000;
+    font-size: x-large;
+    padding:130px;
+    word-spacing: 20px;
+    letter-spacing: 4px;
+    border-radius: 40px;
+}
+a:link{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+
+a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+a:hover:not(.active) {
+    background-color: rgba(17, 17, 17, 0.52);
+color:  black;  
+}
+iframe{
+    /* width:100%; */
+    /* height:1200px; */
+    border-radius: 40px;
+}
+.About{
+color:black;
+font-size: x-large;
+}
+.About p{
+    background-color: rgba(255, 255, 255, 0.486);
+    color:#000000;
+    /* margin: 100px; */
+    padding:130px;
+    word-spacing:20px;
+    letter-spacing: 4px;
+    border-radius: 40px;
+    /* width:50% */
+}
+.Events{
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+}
+.Events h3{
+    color:  white;
+}
+.Events p{
+    color:  white;
+    background-color:  rgba(0, 0, 0, 0.5);
+    padding:130px;
+    word-spacing:20px;
+    letter-spacing: 4px;
+    border-radius: 40px;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+.affiliate{
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+}
